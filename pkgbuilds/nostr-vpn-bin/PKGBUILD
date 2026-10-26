@@ -7,7 +7,7 @@ pkgdesc='Private mesh VPN with a Bitcoin-paid exit bandwidth marketplace (GTK4 d
 arch=('x86_64')
 url='https://github.com/mmalmi/nostr-vpn'
 license=('MIT')
-depends=('gtk4' 'libadwaita' 'glib2' 'cairo' 'zbar' 'curl' 'xdg-utils' 'polkit' "nostr-vpn-cli=$pkgver")
+depends=('gtk4' 'libadwaita' 'glib2' 'cairo' 'dbus' 'libgcc' 'glibc>=2.39' 'zbar' 'curl' 'xdg-utils' 'polkit' "nostr-vpn-cli=$pkgver")
 provides=("nostr-vpn=$pkgver")
 conflicts=('nostr-vpn' 'nostr-vpn-git')
 # Preserve the published executable byte-for-byte.
