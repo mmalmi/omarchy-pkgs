@@ -8,12 +8,13 @@ license=('MIT')
 depends=(
   'dbus'
   'fuse3'
-  'gcc-libs'
+  'libfuse3.so=3-64'
   'glib2'
   'glibc>=2.39'
   'gtk4>=4.12'
   'hicolor-icon-theme'
   'libadwaita>=1.5'
+  'libgcc'
   'xdg-utils'
 )
 provides=("iris-drive=$pkgver" "idrive=$pkgver")
