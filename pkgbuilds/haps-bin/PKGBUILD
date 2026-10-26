@@ -5,7 +5,7 @@ pkgdesc='Signed packages, content-addressed distribution and social discovery'
 arch=('x86_64' 'aarch64')
 url='https://haps.hashtree.cc'
 license=('MIT')
-depends=('bash' 'fzf' 'gcc-libs' 'glibc>=2.35' 'git' 'hashtree>=0.2.114' 'python')
+depends=('bash' 'fzf' 'libgcc' 'glibc>=2.35' 'git' 'hashtree>=0.2.114' 'python')
 optdepends=('bubblewrap: isolated local source builds')
 provides=("haps=$pkgver")
 conflicts=('haps')
