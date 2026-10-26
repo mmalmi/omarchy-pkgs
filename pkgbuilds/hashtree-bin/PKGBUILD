@@ -1,7 +1,7 @@
 pkgname=hashtree-bin
 pkgver=0.2.150
 pkgrel=1
-pkgdesc='Hashtree CLI, Cashu wallet and Git remote helper for peer-to-peer storage'
+pkgdesc='Peer-to-peer storage CLI, Cashu wallet and Git remote helper'
 arch=('x86_64' 'aarch64')
 url='https://github.com/mmalmi/hashtree'
 license=('MIT')
